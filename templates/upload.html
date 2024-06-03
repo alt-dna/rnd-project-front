@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+        body {
+            color: white;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+
+        .video-container {
+            margin-top: 20px;
+        }
+
+        .video-container img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #4CAF50;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Upload Video for Accident Detection</h1>
+    <div class="form-container">
+        <form id="uploadForm" method="POST" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                <label for="fileInput">{{ form.file.label }}</label>
+                {{ form.file(id="fileInput") }}
+                <button type="submit" class="btn">{{ form.submit.label }}</button>
+            </div>
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+        </form>
+    </div>
+    {% if session.video_path %}
+    <div class="video-container">
+        <img id="uploadedVideo" src="{{ url_for('video') }}" alt="processed-frame"/>
+    </div>
+    {% endif %}
+</div>
+<script>
+    const uploadForm = document.getElementById('uploadForm');
+    const fileInput = document.getElementById('fileInput');
+    const errorMessage = document.getElementById('errorMessage');
+
+    fileInput.addEventListener('change', function () {
+        const file = fileInput.files[0];
+        const url = URL.createObjectURL(file);
+        const video = document.createElement('video');
+        video.src = url;
+        video.onloadedmetadata = function () {
+            if (video.duration > 30) {
+                errorMessage.textContent = "Upload failed. Video duration should be shorter than 30 seconds.";
+                errorMessage.style.display = 'block';
+                fileInput.value = '';
+            } else {
+                errorMessage.style.display = 'none';
+            }
+        };
+    });
+</script>
+</body>
+</html>

@@ -12,6 +12,7 @@
   --light-blue: #20bdff;
   --opacity: 60%;
   --card-background: #354d6b;
+  --shadow-color: #feac5e;
 }
 
 div.hide{display:none;}
@@ -83,14 +84,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -116,7 +117,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -124,7 +125,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -186,15 +187,15 @@ div.hide{display:none;}
     margin-top: 2rem !important;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 21px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -202,7 +203,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -254,7 +255,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -361,7 +362,7 @@ div.hide{display:none;}
     transition: all 100ms ease-in-out;
   }
 
- 
+
 
   div.margin-cards {
     margin: 2rem 0 0 0 !important;
@@ -417,14 +418,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -450,7 +451,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -458,7 +459,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -636,14 +637,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -669,7 +670,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -677,7 +678,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -740,15 +741,15 @@ div.hide{display:none;}
     margin-bottom: 3rem;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 18px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -756,7 +757,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -792,7 +793,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -935,7 +936,7 @@ div.hide{display:none;}
     margin: 2rem 0 0 0 !important;
   }
 
-  
+
 
   button.btn {
     font-size: 17px !important;
@@ -987,14 +988,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -1020,7 +1021,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -1028,7 +1029,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -1091,15 +1092,15 @@ div.hide{display:none;}
     margin-bottom: 3rem;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 18px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -1107,7 +1108,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -1143,7 +1144,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -1338,14 +1339,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -1371,7 +1372,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -1379,7 +1380,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -1441,15 +1442,15 @@ div.hide{display:none;}
     margin-top: 2rem !important;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 21px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -1457,7 +1458,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -1509,7 +1510,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -1655,7 +1656,7 @@ div.hide{display:none;}
     margin: 2rem 0 0 0 !important;
   }
 
-  
+
 
   button.btn {
     font-size: 17px !important;
@@ -1707,14 +1708,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -1740,7 +1741,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -1748,7 +1749,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -1810,15 +1811,15 @@ div.hide{display:none;}
     margin-top: -6rem !important;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 18px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -1826,7 +1827,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -1862,7 +1863,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -2026,7 +2027,7 @@ div.hide{display:none;}
     margin-left: 3rem;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 50px !important;
   }
 
@@ -2138,7 +2139,7 @@ div.hide{display:none;}
     margin: 2rem 0 0 0 !important;
   }
 
-  
+
 
   button.btn {
     font-size: 17px !important;
@@ -2190,14 +2191,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -2223,7 +2224,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -2231,7 +2232,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -2294,15 +2295,15 @@ div.hide{display:none;}
     margin-bottom: 3rem;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 18px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -2310,7 +2311,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -2346,7 +2347,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -2490,7 +2491,7 @@ div.hide{display:none;}
     margin: 2rem 0 0 0 !important;
   }
 
-  
+
 
   button.btn {
     font-size: 17px !important;
@@ -2542,14 +2543,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -2575,7 +2576,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -2583,7 +2584,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -2646,15 +2647,15 @@ div.hide{display:none;}
     margin-bottom: 3rem;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 21px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 18px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 21px !important;
   }
 
@@ -2662,7 +2663,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -2698,7 +2699,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -2840,7 +2841,7 @@ div.hide{display:none;}
     margin: 2rem 0 0 0 !important;
   }
 
-  
+
 
   button.btn {
     font-size: 17px !important;
@@ -2892,14 +2893,14 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.about-me-tittle {
+  h3.about-me-title {
     font-size: 25px !important;
     color: var(--light-yellow);
     opacity: var(--opacity);
     margin: 3rem 0 0 0;
   }
 
-  h1.tittle {
+  h1.title {
     font-size: 30px !important;
   }
 
@@ -2925,7 +2926,7 @@ div.hide{display:none;}
     font-size: 15px !important;
   }
 
-  div.moving-tittle {
+  div.moving-title {
     margin-top: 2rem !important;
   }
 
@@ -2933,7 +2934,7 @@ div.hide{display:none;}
     font-size: 20px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 30px !important;
   }
 
@@ -2996,15 +2997,15 @@ div.hide{display:none;}
     margin-bottom: 3rem;
   }
 
-  span.ui-tittle {
+  span.ui-title {
     font-size: 15px !important;
   }
 
-  span.developer-tittle {
+  span.developer-title {
     font-size: 13px !important;
   }
 
-  span.artist-tittle {
+  span.artist-title {
     font-size: 15px !important;
   }
 
@@ -3012,7 +3013,7 @@ div.hide{display:none;}
     font-size: 12px !important;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 25px !important;
   }
 
@@ -3048,7 +3049,7 @@ div.hide{display:none;}
     margin: 1rem 0 2rem 0 !important;
   }
 
-  h3.project-tittle {
+  h3.project-title {
     font-size: 24px !important;
   }
 
@@ -3213,7 +3214,7 @@ div.hide{display:none;}
     margin-left: 3rem;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 50px !important;
   }
 
@@ -3297,7 +3298,7 @@ div.hide{display:none;}
     margin-left: 3rem;
   }
 
-  h3.tittle-services {
+  h3.title-services {
     font-size: 50px !important;
   }
 
@@ -3393,13 +3394,13 @@ div.background-main {
   }
 }
 
-h1.tittle {
+h1.title {
   font-size: 50px;
   font-weight: 600;
   font-family: var(--font);
 }
 
-h2.tittle-smaller {
+h2.title-smaller {
   font-size: 50px;
   color: #f2f6f9;
   font-weight: 600;
@@ -3419,6 +3420,25 @@ img.icon {
     0 0 2pt 4pt rgba(255, 255, 255, 0.6);
 }
 
+/*div.name-card {*/
+/*  background: rgba(255, 255, 255, 0.3);*/
+/*  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);*/
+/*  backdrop-filter: blur(7px);*/
+/*  -webkit-backdrop-filter: blur(7px);*/
+/*  border-radius: 10px;*/
+/*  border: 1px solid rgba(255, 255, 255, 0.18);*/
+/*  animation: float 3s ease-in-out infinite;*/
+/*}*/
+
+div.skills-bubble {
+  font-size: 18px;
+  font-family: var(--font);
+  font-weight: 600;
+  opacity: 80%;
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
 div.name-card {
   background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
@@ -3429,9 +3449,19 @@ div.name-card {
   animation: float 3s ease-in-out infinite;
 }
 
+/* Ensure links inside name-card and skills-bubble divs maintain styles */
+div.name-card a, div.skills-bubble a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div.name-card a:hover, div.skills-bubble a:hover {
+  text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.11);
     transform: translatey(0px);
   }
   50% {
@@ -3462,12 +3492,12 @@ p {
   font-family: var(--font);
 }
 
-div.moving-tittle {
+div.moving-title {
   margin-top: 3rem;
 }
 
 
-h1.tittle {
+h1.title {
   font-size: 70px;
   color: #f2f6f9;
 
@@ -3512,15 +3542,6 @@ div.salute {
   margin-top: 2rem;
 }
 
-div.skills-bubble {
-  font-size: 18px;
-  font-family: var(--font);
-  font-weight: 600;
-  opacity: 80%;
-  padding: 1rem;
-  margin-left: 5rem;
-}
-
 .traffic-img {
   width: 300px;
   height: 300px;
@@ -3528,7 +3549,7 @@ div.skills-bubble {
 }
 
 .static-button{
-  background-color: #e3e0e75d; 
+  background-color: #e3e0e75d;
   border: none;
   color: white;
   padding: 15px 15px;
@@ -3540,7 +3561,7 @@ div.skills-bubble {
 }
 
 .static-button:hover{
-  background-color: #8b63b6; 
+  background-color: #8b63b6;
   border: none;
   color: white;
   padding: 15px 15px;
@@ -3685,7 +3706,7 @@ h2.services-head {
   opacity: 60%;
 }
 
-h3.tittle-services {
+h3.title-services {
   font-family: var(--font);
   font-weight: 600;
   font-size: 60px;
@@ -3746,13 +3767,13 @@ div.card-skills {
   padding: 0.7rem 1.5rem;
 }
 
-span.developer-tittle {
-  background-color: #f3ec78;
-  background: linear-gradient(
-    45deg,
-    #a770ef,
-    #cf8bf3
-  ); /* Chrome 10-25, Safari 5.1-6 */
+span.developer-title {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: #f3ec78 linear-gradient(
+          45deg,
+          #a770ef,
+          #cf8bf3
+  );
 
   background-clip: text;
   -webkit-background-clip: text;
@@ -3761,13 +3782,13 @@ span.developer-tittle {
   height: fit-content;
 }
 
-span.ui-tittle {
-  background-color: #f3ec78;
-  background: linear-gradient(
-    45deg,
-    #20bdff,
-    #a5fecb
-  ); /* Chrome 10-25, Safari 5.1-6 */
+span.ui-title {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: #f3ec78 linear-gradient(
+          45deg,
+          #20bdff,
+          #a5fecb
+  );
 
   background-clip: text;
   -webkit-background-clip: text;
@@ -3776,7 +3797,7 @@ span.ui-tittle {
   height: fit-content;
 }
 
-span.artist-tittle {
+span.artist-title {
   background-color: #f3ec78;
   background: linear-gradient(
     45deg,
@@ -3844,7 +3865,7 @@ div.line-blue-vertical {
   display: flex;
 }
 
-h3.project-tittle {
+h3.project-title {
   font-size: 30px;
   color: #0ed2f7;
   opacity: var(--opacity);
@@ -3972,7 +3993,7 @@ div.line-yellow-vertical {
   display: flex;
 }
 
-h3.about-me-tittle {
+h3.about-me-title {
   font-size: 30px;
   color: #fbd485;
   opacity: var(--opacity);
